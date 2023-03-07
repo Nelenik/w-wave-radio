@@ -1,0 +1,7 @@
+@import 'variables';
+@import 'mixins';
+
+// container первая переменная max-width, вторая - padding
+.container {
+  @include container(1352px, 36px);
+}

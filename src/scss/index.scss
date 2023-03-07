@@ -1,0 +1,15 @@
+@import "./scss-parts/base";
+@import '../../node_modules/choices.js/public/assets/styles/choices.min.css';//choices.js styles
+@import '../../node_modules/swiper/swiper-bundle.min.css';//swiper.js styles
+@import '../../node_modules/tippy.js/dist/tippy.css';//tippy.js styles
+@import '../../node_modules/accordion-js/dist/accordion.min.css';//accordion.js styles
+@import "./scss-parts/common";
+@import "./scss-parts/page/header";
+@import "./scss-parts/page/hero";
+@import "./scss-parts/page/podcasts";
+@import "./scss-parts/page/programs";
+@import "./scss-parts/page/quests";
+@import "./scss-parts/page/playlists";
+@import "./scss-parts/page/on-wave";
+@import "./scss-parts/page/about-us";
+@import "./scss-parts/page/footer";
