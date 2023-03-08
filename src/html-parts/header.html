@@ -1,0 +1,109 @@
+<header class="header">
+  <div class="header__row row-1">
+    <div class="container row-1__container">
+      <a href="index.html" class="header__logo" aria-label="Лого w-wave">
+        <svg class="header__logo-svh">
+          <use xlink:href="sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <button class="btn-reset header__entry-btn" type="button">
+        Вход
+      </button>
+    </div>
+  </div>
+  <div class="header__row row-2">
+    <div class="container row-2__container">
+      <button class="burger js-burger" aria-label="Открыть меню" aria-expanded="false">
+        <span class="burger__line"></span>
+      </button>
+      <nav class="header__main-menu main-menu js-menu">
+        <ul class="list-reset main-menu__list">
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#!">Подкасты</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#!">Передачи</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#!">Гости</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#!">Плейлисты</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#!">О нас</a>
+          </li>
+        </ul>
+        <nav class="header__additional-menu additional-menu">
+          <ul class="list-reset additional-menu__list">
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Новости</a>
+            </li>
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Блоги</a>
+            </li>
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Топы</a>
+            </li>
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Опросы</a>
+            </li>
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Рейтинги</a>
+            </li>
+            <li class="additional-menu__item">
+              <a class="additional-menu__link" href="#!">Реклама</a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+      <button class="btn-reset header__search-btn js-search-btn" type="button" aria-label="Кнопка открыть форму поиска"
+        aria-expanded="false">
+        <svg>
+          <use xlink:href="sprite.svg#search-loupe"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="header__row row-3">
+    <div class="container row-3__container">
+      <div class="header__airs airs">
+        <button class="btn-reset airs__open-btn airs-open js-airs" type="button" aria-label="Открыть эфиры">
+          <span class="airs-open__cross-icon"></span>
+          <span class="airs-open__text">Что в эфире?</span>
+          <span class="airs-open__play-icon">
+            <svg>
+              <use xlink:href="sprite.svg#play-btn-triangle"></use>
+            </svg>
+          </span>
+        </button>
+        <ul class="list-reset airs__list">
+          <li class="airs__item">
+            <button class="btn-reset airs__btn js-play">
+              <svg class="airs__btn-play js-play-icon js-play-icon--active">
+                <use xlink:href="sprite.svg#play-btn-triangle"></use>
+              </svg>
+              <svg class="airs__btn-pause js-pause-icon">
+                <use xlink:href="sprite.svg#pause-btn-sm"></use>
+              </svg>
+            </button>
+            <span class="airs__descr">Ранее в эфире</span>
+            <span class="airs__name">«Музыка»</span>
+          </li>
+          <li class="airs__item">
+            <button class="btn-reset airs__btn js-play">
+              <svg class="airs__btn-play js-play-icon js-play-icon--active">
+                <use xlink:href="sprite.svg#play-btn-triangle"></use>
+              </svg>
+              <svg class="airs__btn-pause js-pause-icon">
+                <use xlink:href="sprite.svg#pause-btn-sm"></use>
+              </svg>
+            </button>
+            <span class="airs__descr">Сейчас в эфире</span>
+            <span class="airs__name">«Как так?»</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
